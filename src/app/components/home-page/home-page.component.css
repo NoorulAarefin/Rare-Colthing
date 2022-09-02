@@ -1,0 +1,22 @@
+.imgHeight{
+  height: 350px;
+  width:270px;
+}
+.quote{
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  color: rgb(74, 74, 74);
+}
+.Featured{
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+
+}
+.container3{
+  font-size: 12px;
+  font-family: 'Inter',serif;
+}
+.imgHeight2{
+  height: 300px;
+  width:240px;
+}

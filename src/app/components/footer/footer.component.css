@@ -1,0 +1,16 @@
+a{
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  color:black;
+  font-size: 16px
+}
+a ::hover{
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  color:black;
+}
+.footer{
+  padding: 40px;
+  margin-top:20px;
+  text-align: center;
+}

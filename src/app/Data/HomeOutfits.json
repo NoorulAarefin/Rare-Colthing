@@ -1,0 +1,35 @@
+  [
+    {
+      "OutFitId": 1,
+      "Name": "Comfy Winter",
+      "desc": "this Offer is Ongoing",
+      "price":0,
+      "Img":"../assets/ProductImages/menCardigan.jpg"
+
+    },
+    {
+      "OutFitId": 2,
+      "Name": "Formals More Casuals ",
+      "desc": "this Offer is Ongoing",
+      "price":0,
+      "Img":"../assets/ProductImages/outdoorClasual.jpg"
+
+    },
+    {
+      "OutFitId": 3,
+      "Name": "Just Jeans",
+      "desc": "this Offer is Ongoing",
+      "price":0,
+      "Img":"../assets/ProductImages/JeansStack.jpg"
+
+    },
+    {
+      "OutFitId": 4,
+      "Name": "The Classic is Back ",
+      "desc": "this Offer is Ongoing",
+      "price":0,
+      "Img":"../assets/ProductImages/Sweatshirt.jpg"
+
+    }
+
+  ]

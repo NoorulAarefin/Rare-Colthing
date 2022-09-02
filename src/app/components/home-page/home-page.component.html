@@ -1,0 +1,69 @@
+<div class="container row">
+  <div class="col-7  div1">
+    <p class="Qoute1">Find perfect OutFit's <br> for your Day</p>
+    <caption class="mt-2 caption1">OutFit's That will make YOU MORE <br> CREATIVE !</caption>
+    <button type="submit" routerLink="/product-page" class="mt-2 font1">Shop This Look</button>
+  </div>
+  <div class="col-5">
+
+    <a href="" class="imgHvr">
+
+      <img src="/assets/ProductImages/home-page-img.jpg" style="height: 550px;width:420px;" alt="OOTD image" srcset="">
+    </a>
+  </div>
+</div>
+
+
+<h4 class="CenterText"> Categories </h4>
+<div class=" container row" style="margin-top:10%;">
+  <div class="col-md-3" *ngFor="let item of OutFitList">
+    <a href="#" class="noDecor">
+      <img src="{{item.Img}}" class="imgHeight" alt="images" srcset="">
+      <p class="card-text Qoute2">{{item.Name}}</p>
+
+    </a>
+  </div>
+</div>
+
+<div class="container" style="margin-top: 15%;">
+
+  <h4 class="text-center quote">
+    "{{Quotes.text}}"
+  </h4>
+  <p class="text-center text-muted" style="font-weight: 500; font-size:12px;">{{Quotes.author}}</p>
+</div>
+<!-- <p>Quotes : {{Quotes}}</p> -->
+
+<div class="container row" style="margin-top:10% ;">
+  <div class="col-3" style="margin-top: 40px;" >
+    <p class="Featured">
+      Featured
+    </p>
+    <p class="text-muted container3" >
+      Fashion is Very Important. <br>
+      It-Is Life Enhancing and Like Everything that gives Pleasure,<br>
+      It Is Worth Doing WELL...
+    </p>
+    <button type="submit" routerLink="/product-page" class="mt-2 font2">Shop All Favourites</button>
+  </div>
+
+    <div class="col-md-3" style="line-height: 1;" *ngFor="let item of Featured">
+      <a href="#" class="noDecor">
+        <img src="{{item.Img}}" class="imgHeight2" alt="images" srcset="">
+        <p class="card-text Qoute3">{{item.ImgName}}</p>
+        <p class="text-dark" style="  font-family: 'Playfair Display', serif;font-size: 30px;font-weight: 500;">{{item.Price}}&#x20AC;</p>
+
+      </a>
+
+    </div>
+  </div>
+
+
+  <div class="container row " style="margin-top: 10rem;">
+    <div class="col-6">
+      <img src="/assets/ProductImages/HugoBoss.jpg" style="height: 291px;width:588px; margin-right: 10px;" alt="">
+    </div>
+    <div class="col-6">
+      <img src="/assets/ProductImages/BossInfinite.jpg" style="height: 291px;width:588px;margin-left: 40px;" alt="">
+    </div>
+  </div>

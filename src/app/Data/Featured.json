@@ -1,0 +1,20 @@
+[
+  {
+  "ImgName": "GUY Boots",
+  "Price":150,
+  "ImgId":1,
+  "Img":"/assets/ProductImages/GuyBoots.jpg"
+},
+{
+  "ImgName": "Enough",
+  "Price":70,
+  "ImgId":2,
+  "Img":"/assets/ProductImages/Enough.jpg"
+},
+{
+  "ImgName": "Red Hot Supreme",
+  "Price":450,
+  "ImgId":3,
+  "Img":"/assets/ProductImages/RedHot.jpg"
+}
+]

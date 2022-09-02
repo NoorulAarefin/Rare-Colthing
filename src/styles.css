@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kanit:ital,wght@1,300&family=Kaushan+Script&family=Playfair+Display&display=swap');
+.font1{
+  /* font-family: 'Playfair Display', serif; */
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  height: 45px;
+  width: 210px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+}
+.font2{
+  /* font-family: 'Playfair Display', serif; */
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  height: 45px;
+  width: 190px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+}
+.Qoute1{
+ font-size: 45px;
+  font-weight:400;
+  font-family: 'Playfair Display', serif;
+}
+.Qoute2{
+ font-size: 20px;
+  font-weight:300;
+  font-family: 'Playfair Display', serif;
+}
+.Qoute3{
+ font-size: 15px;
+  font-weight:500;
+  font-family: 'Playfair Display', serif;
+  margin-top:7px;
+}
+.div1{
+  margin-top: 20px;
+  padding:60px;
+  line-height: 1;
+}
+.caption1{
+  font-family: 'Inter', sans-serif;
+  width: 300px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.CenterText{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 40px;
+  font-weight:500;
+  font-family: 'Playfair Display', serif;
+}
+/* .imgHvr :hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
+/* .Martop{
+  margin-top:20px;
+} */
+.noDecor{
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+}
+.noDecor:hover{
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+}
