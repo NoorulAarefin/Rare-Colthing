@@ -23,6 +23,8 @@ import { ReturnPolicyComponent } from './components/return-policy/return-policy.
 import { FAQsComponent } from './components/faqs/faqs.component';
 import { TrackAnOrderComponent } from './components/track-an-order/track-an-order.component';
 import { CareersComponent } from './components/careers/careers.component';
+
+
 const appRoutes: Routes = [
 
   {
@@ -100,6 +102,8 @@ const appRoutes: Routes = [
     ReturnPolicyComponent,
     FAQsComponent,
     TrackAnOrderComponent,
+
+
 
   ],
   imports: [
